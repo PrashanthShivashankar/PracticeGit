@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoTestNG" duration-ms="12484" started-at="2021-06-18T15:44:10Z" finished-at="2021-06-18T15:44:22Z">
+    <groups>
+    </groups>
+    <test name="TestNGDemoTest" duration-ms="12484" started-at="2021-06-18T15:44:10Z" finished-at="2021-06-18T15:44:22Z">
+      <class name="com.practice.TestNG.TestNGAssertion">
+        <test-method status="PASS" signature="VerifyTitle()[pri:0, instance:com.practice.TestNG.TestNGAssertion@617c74e5]" name="VerifyTitle" duration-ms="12451" started-at="2021-06-18T15:44:10Z" finished-at="2021-06-18T15:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method status="PASS" signature="testSoft()[pri:0, instance:com.practice.TestNG.TestNGAssertion@617c74e5]" name="testSoft" duration-ms="3" started-at="2021-06-18T15:44:22Z" finished-at="2021-06-18T15:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSoft -->
+        <test-method status="PASS" signature="testhard()[pri:0, instance:com.practice.TestNG.TestNGAssertion@617c74e5]" name="testhard" duration-ms="0" started-at="2021-06-18T15:44:22Z" finished-at="2021-06-18T15:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhard -->
+      </class> <!-- com.practice.TestNG.TestNGAssertion -->
+    </test> <!-- TestNGDemoTest -->
+  </suite> <!-- DemoTestNG -->
+</testng-results>

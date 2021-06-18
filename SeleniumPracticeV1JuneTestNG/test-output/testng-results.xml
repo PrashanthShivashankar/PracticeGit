@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13339" started-at="2021-06-16T16:43:03Z" finished-at="2021-06-16T16:43:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13339" started-at="2021-06-16T16:43:03Z" finished-at="2021-06-16T16:43:16Z">
+      <class name="com.practice.TestNG.TestNGDependency">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.practice.TestNG.TestNGDependency@28d25987]" name="startBrowser" is-config="true" duration-ms="0" started-at="2021-06-16T16:43:03Z" finished-at="2021-06-16T16:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="logoutApp()[pri:0, instance:com.practice.TestNG.TestNGDependency@28d25987]" name="logoutApp" duration-ms="0" started-at="2021-06-16T16:43:03Z" finished-at="2021-06-16T16:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.practice.TestNG.TestNGDependency@28d25987]" name="startApp" duration-ms="0" started-at="2021-06-16T16:43:03Z" finished-at="2021-06-16T16:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="verifyApplicationTitle()[pri:1, instance:com.practice.TestNG.TestNGDependency@28d25987]" name="verifyApplicationTitle" duration-ms="13292" started-at="2021-06-16T16:43:03Z" description="verify the title of the page" finished-at="2021-06-16T16:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationTitle -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.practice.TestNG.TestNGDependency@28d25987]" name="loginApp" duration-ms="0" started-at="2021-06-16T16:43:03Z" depends-on-methods="com.practice.TestNG.TestNGDependency.startApp" finished-at="2021-06-16T16:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.practice.TestNG.TestNGDependency@28d25987]" name="closeApp" is-config="true" duration-ms="0" started-at="2021-06-16T16:43:16Z" finished-at="2021-06-16T16:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.practice.TestNG.TestNGDependency -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
